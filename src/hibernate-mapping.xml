@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="Student">
+		<id name="stdId" type="int">
+			<generator class="increment" />
+		</id>
+		<property name="stdName" type="string" />
+	</class>
+</hibernate-mapping>

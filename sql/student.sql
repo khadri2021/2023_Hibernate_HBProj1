@@ -1,0 +1,1 @@
+create table student(stdId int,stdName varchar(30));
